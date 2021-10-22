@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Calculadora de Laplace</title>
+<link type="text/css" href="EstilosCalc.css" rel="stylesheet">
+</head>
+<body onload="init();" id="fondo">
+
+  <form name="calculator">
+    <h3>Calculadora Laplace</h3>
+    <h3>MODO DE USO</h3>
+    <p>* ingresa un número mediante los digitos de la calculadora.</p>
+    <p>* Selecciona la ecuación para ver la transformada</p>
+    <br>
+  </form>
+
+<table class="calculadora">
+<tr>
+  <td colspan="5"><span id="captura"></span></td>
+</tr>
+
+<tr>
+  <td colspan="5"><span id="resultado"></span></td>
+</tr>
+  <tr>
+    <td><button id="uno">1</button></td>
+    <td><button id="dos">2</button></td>
+    <td><button id="tres">3</button></td>
+    <td><button id="cuatro">4</button></td>
+    <td><button id="cinco">5</button></td>
+  </tr>
+  <tr>
+    <td><button id="seis">6</button></td>
+    <td><button id="siete">7</button></td>
+    <td><button id="ocho">8</button></td>
+    <td><button id="nueve">9</button></td>
+    <td><button id="cero">0</button></td>
+  </tr>
+  <div>
+    <tr>
+      <td><button id="fnc1">a(aϵR)</button></td>
+      <td><button id="fnc2">t^n</button></td>
+      <td><button id="fnc3">e^at</button></td>
+      <td><button id="fnc4">sen(at)</button></td>
+      <td><button id="fnc5">cos(at)</button></td>
+	</tr> 
+    <tr>
+      <td><button id="fnc6">t^n e^at</button></td>
+      <td><button id="fnc7">e^at sen(bt)</button></td>
+      <td><button id="fnc8">e^at cos(bt)</button></td>
+      <td><button id="fnc9"></button></td>
+      <td><button id="reset">Limpiar</button></td>
+	</tr> 
+  </div>
+</table>
+<script src="Func_Calc.js"></script>
+</body>
+    <p>Ricardo Andrés Marín Pinilla</p>
+
+</html>
